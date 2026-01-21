@@ -43,7 +43,7 @@ Since this game uses a database to save scores and accounts, you need a local se
 3.  **Setup Database:**
     * Open your browser and go to: `http://localhost/phpmyadmin`
     * Click **New**.
-    * **Database Name:** Enter `infinitetravel`.
+    * **Database Name:** Enter `infinitetravel-edited-`.
     * **Type (Collation):** Select `utf8mb4_general_ci` from the dropdown (Important for special characters).
     * Click **Create**.
     * Select your new database on the left, go to the **Import** tab, and upload the `userInformation.sql` file from the project folder.
@@ -51,7 +51,7 @@ Since this game uses a database to save scores and accounts, you need a local se
 4.  **Start Game:**
     * Open your browser and enter:
         ```
-        http://localhost/infinitetravel/MainMenu/index.php
+        http://localhost/infinitetravel-edited-/MainMenu/index.php
         ```
 
 ### Author
