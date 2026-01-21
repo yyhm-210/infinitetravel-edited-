@@ -1,6 +1,6 @@
 /**
- * Author :        Yusuf Khan   Shuoheng Fu
- * Student Number: 400565596    400590015
+ * Author :        Yusuf Khan   Shuoheng Fu     Yucheng Wang
+ * Student Number: 400565596    400590015       400585377
  * Date: 2025/04/16
  *
  * The game logic implecation. Player controlled by w,a,s,d,space. Avoid or defeat monsters and get coins as you move forward.
