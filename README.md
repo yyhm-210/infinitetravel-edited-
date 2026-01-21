@@ -20,26 +20,42 @@ InfiniteTravel is a 2D side-scrolling platformer built using HTML5 Canvas and Ja
 
 ## Getting Started
 
+Since this game uses a database to save scores and accounts, you need a local server environment.
+
 ### Prerequisites
 
-- A modern web browser (Chrome, Firefox, Edge, etc.)
-- Optional: Live server for auto-reload
+* A modern web browser (Chrome, Firefox, Edge, etc.)
+* **XAMPP** (Required for PHP & MySQL) - [Download Here](https://www.apachefriends.org/index.html)
 
 ### Run Locally
 
-1. Clone the repository:
+1.  **Setup Server:**
+    * Install **XAMPP** and open the Control Panel.
+    * Click "Start" for both **Apache** and **MySQL**.
 
-   ```bash
-   git clone https://github.com/YusufTheDev/infinitetravel.git
-   cd infinitetravel
+2.  **Clone the repository:**
+    * Navigate to your XAMPP `htdocs` folder (usually `C:\xampp\htdocs`).
+    * Open terminal there and run:
+        ```bash
+        git clone [https://github.com/YusufTheDev/infinitetravel.git](https://github.com/YusufTheDev/infinitetravel.git)
+        ```
 
-2. Open index.html in your browser.
+3.  **Setup Database:**
+    * Open your browser and go to: `http://localhost/phpmyadmin`
+    * Click **New**.
+    * **Database Name:** Enter `infinitetravel`.
+    * **Type (Collation):** Select `utf8mb4_general_ci` from the dropdown (Important for special characters).
+    * Click **Create**.
+    * Select your new database on the left, go to the **Import** tab, and upload the `userInformation.sql` file from the project folder.
 
-3. Or use a local server like live-server:
-
-  ```bash
-  npx live-server
-  ```
+4.  **Start Game:**
+    * Open your browser and enter:
+        ```
+        http://localhost/infinitetravel/MainMenu/index.php
+        ```
 
 ### Author
 Yusuf Khan
+
+### Edited by
+Yucheng Wang
