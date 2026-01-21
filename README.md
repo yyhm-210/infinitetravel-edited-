@@ -37,7 +37,7 @@ Since this game uses a database to save scores and accounts, you need a local se
     * Navigate to your XAMPP `htdocs` folder (usually `C:\xampp\htdocs`).
     * Open terminal there and run:
         ```bash
-        git clone [https://github.com/yyhm-210/infinitetravel.git]
+        git clone https://github.com/yyhm-210/infinitetravel-edited-.git
         ```
 
 3.  **Setup Database:**
