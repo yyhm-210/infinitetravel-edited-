@@ -8,7 +8,7 @@
  */
 try {
     $dbh = new PDO(
-        "mysql:host=localhost;dbname=het33_db",
+        "mysql:host=localhost;dbname=infinitetravel",
         "root",
         ""
     );
